@@ -8,7 +8,8 @@
 5. 当S=S4时，为死亡者，不可能复生。
 应用场景：模拟传染病的扩散，如此次新冠肺炎的传染。
 结果描述：在一个有限的空间中，当人群中出现感染者，而没有有效的隔离措施时，病毒会迅速感染整个群体，直到大部分人都痊愈或死亡后才会停止传播。
- 
+ ![Image text](https://github.com/tesla-liuyue/SEIR_CA-module/blob/master/img-storage/%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5.png)
+ ![Image discription](元胞自动机模型下的病毒扩散图)
 元胞自动机模型下的病毒扩散图
 
 绿色：治愈者；
