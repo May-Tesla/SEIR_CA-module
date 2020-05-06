@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 
 # 初始化相关数据
 k=0.85          # 上下左右概率
-l=0.55          # 四角概率
+l=0.85          # 四角概率
 c1=0.4          # c1概率变为潜伏者
 dieRate=0.025   # 感染者死亡率
 t1_max=14       # 潜伏时间
@@ -234,7 +234,7 @@ if __name__ == '__main__':
     count4_ = []
     pygame.init()
     pygame.display.set_caption("使用CA模型的SEIR传染病模型")
-    game = Game(600, 600, 100, 100)
+    game = Game(600, 600, 100, 100)         # 界面宽高和两个方向上的细胞数
 
     clock = pygame.time.Clock()
     k1 = 0
